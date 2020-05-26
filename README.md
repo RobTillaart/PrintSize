@@ -14,12 +14,12 @@ the last **reset()** call. (see example)
 
 # Operational
 
-Example shows the alignment of 10 random numbers
+Example shows the right alignment of 10 random numbers
 
-Example shows line fitting (elementary)
+Example shows (elementary) line fitting
 
 Can be used to calculate the needed space.
- - to properly do a right alignment e.g. for numbers. 
- - do left alignement and overwrite previous output with spaces.
+ - to properly do a right alignment e.g. for numbers or variable text
+ - do left alignement and overwrite previous output with just enough spaces.
  - centering of numbers
  - see if output will fit into a line / display
