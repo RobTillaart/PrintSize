@@ -102,7 +102,7 @@ unittest(test_print)
   ps.reset();
   assertEqual(0,  ps.total());
   char str[] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis eget odio ut";
-  assertEqual(strlen(str), ps.write(str, strlen(str));
+  assertEqual(strlen(str), ps.write(str, strlen(str)));
   assertEqual(strlen(str), ps.total());
 }
 
