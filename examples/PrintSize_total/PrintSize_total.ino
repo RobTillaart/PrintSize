@@ -24,7 +24,7 @@
 #include "PrintSize.h"
 
 char woord[24];
-int index = 0;
+int idx = 0;
 
 PrintSize ps;
 
@@ -50,12 +50,12 @@ void loop()
     {
       process(woord, 60);
       woord[0] = '\0';
-      index = 0;
+      idx = 0;
     }
     else
     {
-      woord[index++] = c;
-      woord[index] = '\0';
+      woord[idx++] = c;
+      woord[idx] = '\0';
     }
   }
 }
