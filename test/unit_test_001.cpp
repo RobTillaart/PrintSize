@@ -90,7 +90,7 @@ unittest(test_print)
 
 
 
-unittest(test_print)
+unittest(test_write)
 {
   fprintf(stderr, "VERSION: %s\n", (char *) PRINTSIZE_VERSION);
 
