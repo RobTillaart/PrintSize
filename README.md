@@ -21,8 +21,9 @@ Works for **print()**, **println()** and if supported **printf()** e.g. ESP32.
 Finally since **0.2.0** it has a total counter to add up the characters "printed" since
 the last **reset()** call. (see example)
 
-This library relates to https://github.com/RobTillaart/PrintCharArray which
-holds the printed data in a buffer for later processing.
+This library is related to
+- https://github.com/RobTillaart/PrintCharArray (captures data in a buffer)
+- https://github.com/RobTillaart/PrintSize. (captures data in a String)
 
 
 ## Operational
