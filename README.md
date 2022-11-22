@@ -48,5 +48,8 @@ Can be used to calculate the needed space.
 - add examples
 - add a function to handle **tab** char correctly e.g. 
   could add more than one char. Interferes with the **write(str, length)**.
+  - setTabSize(2,4,6, 8...);
+  - getTabSize();
+  - uint8_t \_tabSize = 4;
 - 
 
